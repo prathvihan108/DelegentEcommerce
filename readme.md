@@ -2,7 +2,7 @@
 
 A modern, sleek e-commerce web application built with React and Material-UI featuring a beautiful gradient-based design, user authentication, and product management.
 
-## 🌟 Features
+## Features
 
 - **User Authentication** - Sign up and login functionality
 - **Product Browsing** - Browse products with ratings and descriptions
@@ -16,8 +16,8 @@ A modern, sleek e-commerce web application built with React and Material-UI feat
 - **React** - Frontend framework
 - **Material-UI (MUI)** - UI component library
 - **Axios** - HTTP client for API requests
-- **Node.js & Express** - Backend server (assumed)
-- **MongoDB** - Database (assumed)
+- **Node.js & Express** - Backend server
+- **MongoDB** - Database
 
 ## 📋 Prerequisites
 
@@ -32,13 +32,14 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd modernshop-ecommerce
+git clone git@github.com:prathvihan108/DelegentEcommerce.git
+
 ```
 
 ### 2. Install Dependencies
 
 ```bash
+cd frontend
 npm install
 ```
 
@@ -46,26 +47,17 @@ npm install
 
 Make sure you have all the necessary packages:
 
-```bash
+````bash
 npm install @mui/material @mui/icons-material @emotion/react @emotion/styled axios
-```
 
-### 4. Environment Setup
+### 5. Backend Setup
 
-Create a `.env` file in the root directory:
-
-```env
-REACT_APP_API_URL=http://localhost:5000/api
-```
-
-### 5. Backend Setup (if applicable)
-
-Navigate to your backend directory and install dependencies:
+Navigate to your server directory and install dependencies:
 
 ```bash
-cd backend
+cd server
 npm install
-```
+````
 
 Create a `.env` file in the backend directory:
 
